@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+
+    <body>
+
+        <section>
+            <h2>Formulario 1</h2>
+            <form action="envio.html" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" name="nombre" id="name" placeholder="Ingresar Nombre">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h1>Formulario 2</h1>
+            <form action="" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name"/>
+                    </li>
+    
+                    <li>
+                        <label for="mail">Correo electronico:</label>
+                        <input type="email" id="mail" name="user_email"/>
+                    </li>
+    
+                    <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                </ul>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Formulario 3</h2>
+            <form>
+                <fieldset>
+                    <legend>Tamaño</legend>
+                    <p>
+                        <input type="radio" name="tamaño"  id="tam_1" value="pequeño">
+                        <label for="tam_1">Pequeño</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="tamaño" id="tam_2" value="mediano">
+                        <label for="tam_2">Mediano</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="tam" id="tam_3" value="grande">
+                        <label for="tam_3">Grande</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="sabor_1" name="sabor_cereza" value="cereza">
+                        <label for="sabor_1">Me gustan las cerezas</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="sabor_2" name="sabor_banana" value="banana">
+                        <label for="sabor_2">Me gustan los plátanos</label>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2>Formulario de datos personales</h2>
+            <form>
+                    <p>
+                        <label for="nombre-completo">Nombre Completo:</label>
+                        <input type="text" id="nombre-completo" name="nombre" placeholder="Ingresar Nombre" required>
+                    </p>
+
+                    <p>
+                        <label for="apellido-paterno">Apellido Paterno:</label>
+                        <input type="text" id="apellido-paterno" name="apellidosp" placeholder="Ingresar Apellido Paterno" required>
+                    </p>
+
+                    <p>
+                        <label for="apellido-materno">Apellido Materno:</label>
+                        <input type="text" id="apellido-materno" name="apellidosm" placeholder="Ingresar Aperllido Materno" required>
+                    </p>
+
+                    <p>
+                        <label for="mail">Correo Electronico:</label>
+                        <input type="email" id="mail" name="user_email" placeholder="Ingresar Email" required>
+                    </p>
+
+                    <p>
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="pass" placeholder="password" required>
+                    </p>
+                    <div>
+                        <button type="submit" id="boton-enviar">Enviar</button>
+                    </div>
+            </form>
+        </section>
+
+
+    </body>
+    
+
+</html>
+
